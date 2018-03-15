@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  display: block;
+  height: 120px;
+  background-color: #f0f0f0;
+  border: 1px solid #d8d8d8;
+  width: 100%;
+}
+img {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 120px;
+}
+li{
+  display: inline;
+}
+form{
+  position: relative;
+  display: inline;
+  top: -17px;
+}
+form input{
+    border-style: none;
+    box-shadow: 0px 2px 2px #c8c8c8;
+    width: 600px;
+    padding: 10px;
+}
