@@ -5,7 +5,10 @@
 body{
   height: 100%;
 }
-.icon img{
+ul{
+  list-style-type: none;
+}
+.profpicture img{
   opacity: 0.5;
   height: 40px;
   width: auto;
@@ -14,16 +17,17 @@ body{
 }
 .bell img{
   opacity: 0.5;
-  height: 35px;
+  height: 25px;
   width: auto;
   float: right;
-  bottom: 3px;
+  top: 3px;
 }
 .blocks img{
   opacity: 0.5;
-  height: 30px;
+  height: 20px;
   width: auto;
   float: right;
+  top: 5px;
 }
 .searchbar li img:hover{
   opacity: 1;
@@ -35,7 +39,6 @@ body{
   width: 100%;
 }
 .menubar{
-  display: block;
   height: 60px;
   background-color: #f0f0f0;
   border-bottom: 1px solid #d8d8d8;
@@ -65,4 +68,31 @@ form input{
     box-shadow: 0px 2px 2px #c8c8c8;
     width: 600px;
     padding: 10px;
+}
+.menuleft li{
+position: relative;
+float: left;
+margin-left: 15px;
+margin-right: 15px;
+margin-top: 30px;
+}
+.menuright li{
+position: relative;
+float: right;
+margin-left: 15px;
+margin-right: 15px;
+margin-top: 30px;
+}
+.menubar ul{
+  width: 620px;
+  margin-left: 150px;
+}
+.menubar a{
+  font-size: small;
+  text-decoration: none;
+  color: #757575;
+}
+a:hover{
+  text-decoration: underline;
+  color: #545454;
 }
