@@ -2,16 +2,52 @@
   margin: 0;
   padding: 0;
 }
-header{
+body{
+  height: 100%;
+}
+.icon img{
+  opacity: 0.5;
+  height: 40px;
+  width: auto;
+  float: right;
+  bottom: 5px;
+}
+.bell img{
+  opacity: 0.5;
+  height: 35px;
+  width: auto;
+  float: right;
+  bottom: 3px;
+}
+.blocks img{
+  opacity: 0.5;
+  height: 30px;
+  width: auto;
+  float: right;
+}
+.searchbar li img:hover{
+  opacity: 1;
+}
+.searchbar{
   display: block;
-  height: 120px;
+  height: 60px;
   background-color: #f0f0f0;
-  border: 1px solid #d8d8d8;
   width: 100%;
 }
-img {
-  position: relative;
+.menubar{
+  display: block;
+  height: 60px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #d8d8d8;
+  width: 100%;
+}
+.searchbar img{
   margin-top: 20px;
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.google img{
   margin-left: 20px;
   margin-right: 20px;
   width: 120px;
@@ -20,9 +56,9 @@ li{
   display: inline;
 }
 form{
-  position: relative;
+  position: absolute;
   display: inline;
-  top: -17px;
+  top: 17px;
 }
 form input{
     border-style: none;
