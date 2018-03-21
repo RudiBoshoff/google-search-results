@@ -35,12 +35,12 @@ ul{
 .searchbar{
   display: block;
   height: 60px;
-  background-color: #f0f0f0;
+  background-color: #f8f8f8;
   width: 100%;
 }
 .menubar{
   height: 60px;
-  background-color: #f0f0f0;
+  background-color: #f8f8f8;
   border-bottom: 1px solid #d8d8d8;
   width: 100%;
 }
@@ -95,4 +95,48 @@ margin-top: 30px;
 a:hover{
   text-decoration: underline;
   color: #545454;
+}
+.numberresults p{
+  color: #9f9f9f;
+  font-size: small;
+  padding-left: 165px;
+  padding-top: 20px;
+}
+.resultsbox a{
+  color: #1a0dab;
+  font-size: 18px;
+  text-decoration: none;
+}
+.resultsbox a:hover{
+  text-decoration: underline;;
+}
+.resultsbox{
+  position: relative;
+  width: 600px;
+  left: 165px;
+  height: 1000px;
+  font-size: small;
+}
+.link p{
+  color: green;
+}
+.leftlinks{
+  width: 250px;
+  position: relative;
+  left: 35px;
+}
+.rightlinks{
+  width: 250px;
+  position: relative;
+  left: 350px;
+  top: 0px;
+}
+.more {
+  width: 600px;
+}
+.more a{
+  font-size: small;
+}
+.secondarylinks{
+  height: 250px;
 }
