@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: arial,sans-serif;
 }
 body{
   height: 100%;
@@ -114,7 +115,7 @@ a:hover{
   position: relative;
   width: 600px;
   left: 165px;
-  height: 1000px;
+  height: auto;
   font-size: small;
 }
 .link p{
@@ -129,7 +130,6 @@ a:hover{
   width: 250px;
   position: relative;
   left: 350px;
-  top: 0px;
 }
 .more {
   width: 600px;
@@ -139,4 +139,63 @@ a:hover{
 }
 .secondarylinks{
   height: 250px;
+}
+.additionalresults{
+  height: 180px;
+}
+h3{
+  font-size: 20px;
+  font-weight: normal;
+}
+.resultsleft{
+  width: 250px;
+  position: relative;
+  height: auto;
+}
+.resultsright{
+  width: 250px;
+  position: relative;
+  left: 300px;
+  height: auto;
+}
+.resultsleft a{
+  font-size: 14px;
+}
+.resultsright a{
+  font-size: 14px;
+}
+.resultsleft li a{
+  display: block;
+  padding-top: 8px;
+}
+.resultsright li a{
+  display: block;
+  padding-top: 8px;
+}
+.pagenavigation{
+  position: relative;
+  display: block;
+  width: 405px;
+  left: 300px;
+  height: 100px;;
+}
+.pagenavigation img{
+  width: 405px;
+}
+.pagenavigation ul{
+  padding-left: 50px;
+  float: left;
+}
+.pagenavigation li{
+  padding-right: 12px;
+}
+.numbers{
+  width: 320px;
+  height: 19px;
+  float: left;
+}
+.next{
+  width: 35px;
+  float: left;
+  padding-left: 40px;
 }
