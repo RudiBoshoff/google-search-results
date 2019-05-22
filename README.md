@@ -2,8 +2,7 @@ PROJECT: HTML/CSS https://www.theodinproject.com/courses/web-development-101/les
 
 Assignment:
 
-Easy Version: Build the Google.com homepage
-(the simple one with just a search box).
+Difficult Version (optional): Build the Google.com search results page.
 
 Inside your project folder, create your index.html file
 
